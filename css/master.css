@@ -1,0 +1,92 @@
+@charset "utf-8";
+/* CSS Document */
+* { margin: 0; padding: 0; outline: none; }
+body { font-size: 12px; font-family: Verdana, Geneva, sans-serif; margin: 0 auto; outline: none; border: none; }
+ul, ol { list-style: none; }
+a { text-decoration: none; }
+.fl { float: left; }
+.fr { float: right; }
+.clear:after { content: "."; font-size: 0; height: 0; visibility: hidden; display: block; clear: both; }
+img { border: 0; }
+
+
+/***********************以上是通用样式********************/
+
+
+.idx_header{ background: url("../images/banner.jpg")no-repeat; background-size: cover; min-height:790px;-webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; -ms-background-size: cover; }
+
+.idx_nav{background:rgba(0,0,0,.3); border-radius:0; border:none; margin-top:30px; height:1.2em; font-size:1.4em;}
+#example-navbar-collapse>ul>li>a{ color:#FFF;}
+#example-navbar-collapse>ul>li>a:hover{color:#FF6;}
+#example-navbar-collapse>ul>li>a>span{color:#FFF;}
+@media only screen and (max-width:720px){
+#example-navbar-collapse>ul>li>a{font-size:0.9em; line-height:5px;}	
+	}
+.navbar-default .navbar-toggle .icon-bar{background-color:#F6F6F6;}
+.navbar-default .navbar-toggle{background:#F66; border:none;}
+.navbar-default .navbar-toggle:hover{ background:#F63;}
+.idx_hdmid{border-top: 5px solid#fff; border-bottom: 5px solid#fff; width: 28%; margin: 15em auto 0; text-align:center;}
+.idx_hdmid a{font-size: 4em; text-decoration: none; color: #fff;}
+@media only screen and (max-width:720px){
+.idx_hdmid a{font-size: 2.8em; text-decoration: none; color: #fff;}	
+	}
+@media only screen and (max-width:480px){
+.idx_hdmid a{font-size: 3em; text-decoration: none; color: #fff;}	
+	}
+.idx_hdbtm{ position:relative; margin-top:10em;}
+.idx_hdbtmlist{background: #16A667; padding:1em 0; width:90%; margin:0 auto; color:#fff;}
+.idx_hdbtmlist>h4{font-weight:bold;}
+.idx_hdbtmlist img{margin:0 auto; border-radius:50%; border:0.5em solid #fff; padding:1em;}
+@media only screen and (max-width:760px){
+.idx_hdbtmlist{ margin-bottom:1.2em;}
+	}
+
+@media only screen and (max-width:480px){
+.idx_hdbtmlist{ margin-bottom:1.2em;}
+	}
+
+/*以上是top样式*/
+
+.idx_abt{margin-top:2em;}
+.idx_abt h1{font-weight:bold;}
+.idx_abt p{ line-height:5em; font-size:1.2em;}
+@media only screen and (max-width:720px){
+.idx_abt p{ line-height:2.8em; font-size:1.2em;}
+	}
+@media only screen and (max-width:480px){
+.idx_abt p{ line-height:2em; font-size:1.1em;}	
+	}
+
+/*以上是关于我们样式*/
+
+.idx_servicebg{background: #37353b; margin-top:2em; color:#fff; width:100%;}
+.idx_servicebg h1{font-weight:bold; color:#fff; margin-bottom:2em; margin-top:1.2em;}
+.idx_servicebg h4{line-height:2em;}
+.idx_servicebg p{line-height:2em;}
+.idx_servicebg img{ margin: 0 auto; background: #16A667; padding: 0.5em 1em; border-radius: 10px; }
+.idx_servicebg img:hover { background: #f2af00; }
+
+/*以上是我们的服务样式*/
+
+.idx_workbg{width:100%; background:#F5F5F5; padding-bottom:5em;}
+.idx_workbg h1{font-weight:bold; line-height:2em;}
+
+/*以上是工作作品样式*/
+
+.idx_news{ padding-bottom:3em;}
+.idx_news h1{line-height:2.3em; font-weight:bold;}
+.idx_news h4 a{color:#333;}
+.idx_news p{margin-bottom:1.5em;}
+.idx_newsbtn{padding:.8em 1.2em; background:#16A667; color:#fff; font-size:1.1em;}
+.idx_newsbtn:hover{text-decoration: none; color:#FFF; background:#3BB47E;}
+
+/*以上是新闻样式*/
+
+.idx_btm{background: #37353b;  margin-top:3em; color:#fff;}
+.idx_btm h3{font-size:3em;}
+.idx_btm span{ font-size:3em;}
+
+/*以上是btm样式*/
+
+.footer{width:100%;background: #37353b;}
+.footer p{line-height:3em; margin:0; text-align:center; margin-top:3em;}
